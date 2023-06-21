@@ -1,0 +1,222 @@
+/*start main rules*/
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(backg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*end main rules*/
+
+/*start login form*/
+.form-box{
+    width:90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.cont h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 60px;
+    color: #12263a;
+    position: relative;
+}
+
+.cont input{
+    margin-bottom: 10px;
+    width: 100%;
+    background: transparent;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.cont .form-control{
+    background-color: #f4eae3;
+}
+
+.text_center {
+    text-align: center;
+  }
+  
+  .login,
+  .signup {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .cont .selected{
+    color: #B22020;
+  }
+  
+  .cont h1 {
+    
+        color: #C0C0C0;
+    
+  }
+  .cont h1 span {
+    cursor: pointer;
+}
+  .cont .signup{
+    display: none;
+  }
+
+.cont .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 48px;
+    background-color: #12263a;
+    width: 100%;
+    padding-left: 50%;
+    padding-right: 50%;
+    height: 40px;
+  
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+  }
+
+/*end login form*/
+
+/*start Bootstrap(navbar) Edits*/
+.navbar-toggler{
+    color: #fff;
+}
+.navbar-brand{
+    color: black;
+}
+.contain{
+    --bs-gutter-x: 5rem; 
+}
+
+/*end Bootstrap edits*/
+
+/*start home page*/
+.contain {
+    
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(emghome.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.contain h1{
+    font-size: 62px;
+    padding-top: 100px;
+    
+}
+.contain p{
+   margin: 10px 0 40px;
+   font-size: 14px;
+   color: #fff;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.about h1{
+    color: #333;
+    font-size: 36px;
+    font-weight: 600;
+}
+.about p{
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+/*end home page*/
+
+/* start manage page */
+
+.manage-page h1 {
+    font-size: 55px;
+    margin-top: 20px ;
+    font-weight: bold;
+    color: #666;
+}
+.manage-page td {
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+
+.manage-page .main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+
+.manage-page {
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc;
+   box-shadow: 0 3px 10px #ccc;
+}
+
+.btn.btn-primary i {
+    font-size: 24px;
+}
+/* end manage page */
+
+/*upper bar */
+.upper-bar{
+    padding: 10px;
+    background-color: #fff;
+}
+
+/*end upper bar */
+
+/* start profile page */
+
+.car-body {
+    flex: 1 1 auto;
+    color: var(--bs-card-color);
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.car-body .information ul {
+    padding: 0;
+    margin: 0;
+}
+
+.car-body .information ul li {
+    padding: 10px;
+}
+
+.car-body .information ul li:nth-child(odd) {
+    background-color: #EEE;
+}
+
+.car-body .information ul li span {
+    display: inline-block;
+    width: 120px;
+}
+/* end profile page */
